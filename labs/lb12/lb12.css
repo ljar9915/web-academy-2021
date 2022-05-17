@@ -1,0 +1,95 @@
+body {
+  background-image: url("../img/powerpuff.gif");
+}
+  
+span {
+  font-size: 24px;
+  font-family: 'Trebuchet MS';
+  bac
+}
+
+/* the container < div > needed to contain the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: rgba(255, 207, 207);
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px;
+  color: black;
+  padding: 12px 16px;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown_content {
+  display: block;
+}
+
+.drpmenu {
+  background-color: rosybrown;
+  padding: 16px;
+  color: white;
+  padding: 12px;
+  font-size: 18px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+/* change the background color of the dropdown menu when you hover over it */
+.drpmenu:hover {
+  background-color: white;
+  color: rosybrown;
+  border: 2px solid black;
+}
+
+/* links inside the dropdown */
+.dropdown a {
+  background-color: lightpink;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: none;
+  
+  border-bottom: 2px solid rosybrown;
+}
+
+.dropdown:hover a {
+  display: block;
+}
+
+.dropdown:hover a:hover {
+  background-color: white;
+  color: lightpink;
+}
+
+.dropdown img {
+  width: 100px;
+  box-shadow: 4px 6px black;
+  border: 5px solid white;
+}
+
+.dropdown_content {
+  padding: 40px;
+}
+
+.dropdown_content img {
+  width: 500px;
+}
+
+.caption {
+  display: none;
+  color: black;
+  font-size: 28px;
+  margin-top: 20px;
+  padding: 15px;
+  text-align: center;
+}
+
+.dropdown_content:hover .caption {
+  display: block;
+}

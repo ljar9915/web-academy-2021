@@ -1,0 +1,18 @@
+<!--Doctype HTML-->
+<html>
+       <head>
+            <title> My first webpage </title>
+       </head>
+       <body>
+             <h1> thomas a edison cte high school </h1>
+             <h2> web developer academy </h2>
+             <h3> 10th grade </h3>
+             <h4> lab 1 </h4>
+             <h5> intro to hyper text markup language </h5>
+             <h6> by leah jarvis </h6>
+             <p> the doctype html tag lets the computer know that it's reading html code. the head tag contains the title. the title tag
+                 contains the title of the webpage, the body tag contains what is displayed on the webpage in your browser. the heading
+                 tags contain heading text & the paragraph tags contain paragraph text.</p>
+             <p> my name is Leah Jarvis, i'm a 15 year old 10th grade student. I'm in the class because i enjoy visual arts. I want to stay in NYC when i grow up & probably work in some kind of design or fashion industry. </p>
+       </body>
+</html>

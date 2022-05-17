@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> lab 16 </title>
+    <link href="lab16.css" rel="stylesheet">
+    <link href="../../mainportfolio.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="../../leahjlogo2.png" type="image/x-icon">
+	<center>
+		<a href="../../index.html"><img src="../../leahjbanner2.png" alt="banner" width="75%"></a>
+  </center>
+  <style>
+    .text {
+      font-size: 18px;
+      width: 75%;
+    }
+  </style>
+  </head>
+    
+  <body>
+    <center>
+
+      <div class="topnav">
+      <a href="../lab1/lab1.html">lab 1</a>
+      <a href="../lab2/lab2.html">lab 2</a>
+      <a href="../lab3/lab3.html">lab 3</a>
+      <a href="../lab4/lab4.html">lab 4</a>
+      <a href="../lab5/lab5.html">lab 5</a>
+      <a href="../lab6/lab6.html">lab 6</a>
+      <a href="../lab7/lab7.html">lab 7</a>
+      <a href="../lab8/lab8.html">lab 8</a>
+      <a href="../lab9/lab9.html">lab 9</a>
+      <a href="../lb10/lab10.html">lab 10</a>
+      <a href="../lb11/lab11.html">lab 11</a>
+      <a href="../lb12/lab12.html">lab 12</a>
+      <a href="../lb13/lab13.html">lab 13</a>
+      <a href="../lb14/lab14.html">lab 14</a>
+      <a href="../lb15/lab15.html" >lab 15</a>
+      <a href="../lb16/lab16.html" target="_blank">lab 16</a>
+      <a href="../lb17/lab17.html">lab 17</a>
+      <a href="../lb18/lab18.html">lab 18</a>
+      <a href="../lb19/lab19.html">lab 19</a>
+      <a href="../lb20/lab20.html">lab 20</a>
+    </div>
+      
+ <div class="wrapper">
+			
+			<div id="after">
+				<section class="section_info">
+					<h1 style="font-size: 3.5em;  margin-bottom: 0.3em;">Registered Info</h1>
+					<h4 style="margin-bottom: 3em; color:#fff">Thank you for registering!</h4>
+				</section>
+
+        
+				<section class="section_userform">
+					<div class="break">
+						<p class="result_label">Your name:</p>
+						<p class="result" id="nameResult"></p>
+					</div>
+					<div class="break">
+						<p class="result_label">Your Email:</p>
+						<p class="result" id="emailResult"></p>
+					</div>
+					<div class="break">
+						<p class="result_label">Your Phone:</p>
+						<p class="result" id="phoneNumResult"></p>
+					</div>
+					
+					<div class="break buttonWrapper">
+							<input id="goBack" class="button" type="button" value="Return" onClick="returnHome();">
+						</div>
+				</section>
+			</div>
+			
+			
+			
+			<div id="before">
+			
+				<section class="section_info">
+					<h1 class="register" style="font-size: 3.5em;">Register</h1>
+				</section>
+
+				<hr id="line">
+
+				<section class="section_userform">
+					<form name="userform">
+<!-- the p tag adds text above the textboxes & the input tag actually adds the textboxes -->
+						<div class="break">
+							<p class="input_label">Name:</p>
+							<input class="textbox" id="user_name" type="text" name="input_username" placeholder=""/>
+						</div>
+
+						<div class="break">
+							<p class="input_label">Email:</p>
+							<input class="textbox" id="user_email" type="text" name="input_email" placeholder=""/>
+						</div>
+
+						<div class="break">
+							<p class="input_label">Phone:</p>
+							<input class="textbox" id="user_phoneNumber" type="text" name="input_phoneNum" placeholder=""/>
+						</div>
+<!-- this adds the submit button below the textboxes -->
+						<div class="break buttonWrapper">
+							<input id="input_username_button" class="button" type="button" value="submit" onClick="submitForum();">
+						</div>
+
+					</form>
+				</section>
+			</div>
+    <script src="script.js"></script>
+  </body>
+</html>

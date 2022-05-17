@@ -1,0 +1,134 @@
+body {
+  background-image: url("greenhearts.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 18px;
+  font-family: 'Trebuchet MS';
+  text-align: center;
+  margin-bottom: 400px;
+}
+
+h1 {
+  font-size: 72px;
+  text-align: center;
+  text-shadow: 4px 4px 0px #000000;
+  font-family: Bradley Hand, cursive;
+}
+
+h2 {
+  font-size: 46px;
+  text-align: center;
+  text-shadow: 4px 4px 0px #000000;
+  font-family: Bradley Hand, cursive;
+}
+
+h3 {
+  font-size: 24px;
+  text-align: center;
+  text-shadow: 4px 4px 0px #000000;
+  font-family: Bradley Hand, cursive;
+}
+
+.home {
+  width: 28%;
+}
+
+.home img {
+  width: 50px;
+}
+
+.home:hover img {
+  width: 100px;
+}
+
+.home .caption {
+  display: none;
+}
+
+.home:hover .caption {
+  display: block;
+}
+
+.link {
+  width: 50%;
+  padding: 50px;
+  margin: 40px;
+  background-color: rgba(0,0,0,0.2);
+  border: 6px solid #adffc3;
+  border-radius: 40px;
+}
+
+.link a, .dropdown span {
+  color: white;
+  font-size: 24px;
+  text-shadow: 2px 2px 0px #000000;
+}
+
+.dropdown #span2 {
+  color: white;
+  font-size: 14px;
+  text-shadow: 2px 2px 0px #000000;
+}
+
+.content {
+  margin: 40px;
+  padding-bottom: 150px;
+}
+
+.image img {
+  width: 450px;
+  box-shadow: 8px 10px black;
+  border: 4px solid white;
+  float: left;
+  margin-left: 40px;
+}
+
+.dropdown {
+  width: 40%;
+  padding: 40px;
+  margin-left: 80px;
+  background-color: rgba(0,0,0,0.2);
+  border: 6px solid #adffc3;
+  border-radius: 40px;
+  float: left;
+}
+
+.dropdown p {
+  background-color: rgba(173, 255, 195, 0.75);
+  color: black;
+  padding: 40px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  height: 150px;
+  display: none;
+  border: 6px solid white;
+}
+
+.dropdown:hover p {
+  display: block;
+}
+
+.image:hover .caption, .image:hover .caption2 {
+  display: block;
+ }
+
+.caption {
+  display: none;
+  padding: 40px;
+  font-size: 18px;
+  text-shadow: 2px 2px 0px #000000;
+}
+
+.caption2 {
+  display: none;
+  padding: 40px;
+  font-size: 18px;
+  text-shadow: 2px 2px 0px #000000;
+}
+
+.dropdown:hover .caption {
+  display: block;
+}

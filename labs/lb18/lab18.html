@@ -1,0 +1,91 @@
+<!--Doctype HTML-->
+<html>
+
+<head>
+	<title> lab 18 </title>
+  <link rel="stylesheet" href="../../mainportfolio.css">
+  <link rel="stylesheet" href="lab18.css">
+	<link rel="shortcut icon" href="../../leahjlogo2.png" type="image/x-icon">
+	<center>
+  </center>
+  <style>
+    .text {
+      font-size: 18px;
+      width: 75%;
+    }
+  </style>
+</head>
+
+<body>
+<center>
+   <div class="topnav">
+      <a href="../lab1/lab1.html">lab 1</a>
+      <a href="../lab2/lab2.html">lab 2</a>
+      <a href="../lab3/lab3.html">lab 3</a>
+      <a href="../lab4/lab4.html">lab 4</a>
+      <a href="../lab5/lab5.html">lab 5</a>
+      <a href="../lab6/lab6.html">lab 6</a>
+      <a href="../lab7/lab7.html">lab 7</a>
+      <a href="../lab8/lab8.html">lab 8</a>
+      <a href="../lab9/lab9.html">lab 9</a>
+      <a href="../lb10/lab10.html">lab 10</a>
+      <a href="../lb11/lab11.html">lab 11</a>
+      <a href="../lb12/lab12.html">lab 12</a>
+      <a href="../lb13/lab13.html">lab 13</a>
+      <a href="../lb14/lab14.html">lab 14</a>
+      <a href="../lb15/lab15.html">lab 15</a>
+      <a href="../lb16/lab16.html">lab 16</a>
+      <a href="../lb17/lab17.html">lab 17</a>
+      <a href="../lb18/lab18.html" target="_blank">lab 18</a>
+      <a href="../lb19/lab19.html">lab 19</a>
+      <a href="../lb20/lab20.html">lab 20</a>
+    </div>
+  
+  <div class="text">
+	<h1> thomas a edison cte high school </h1>
+	<h2> web developer academy </h2>
+	<h3> 10th grade </h3>
+	<h4> lab 18 </h4>
+	<h5> </h5>
+	<h6> by leah jarvis </h6>
+  </div>
+
+  <div id="block"> </div>
+
+  <button id="size" onClick="size()"> size </button>
+  <button id="position" onClick="position()"> position </button>
+  <button id="shape" onClick="shape()"> shape </button>
+  <button id="color" onClick="color()"> color </button>
+  <button id="reset" onClick="reset()"> reset </button>
+
+  <script> 
+    
+    function color() {
+      document.getElementById("block").style.backgroundColor="#b0caff";
+    }
+    function size() {
+      document.getElementById("block").style.width="400px";
+      document.getElementById("block").style.height="400px";
+    }
+
+    function shape() {
+      document.getElementById("block").style.borderRadius="400px";
+    }
+
+    function position() {
+      document.getElementById("block").style.position="absolute";
+    }
+
+    function reset() {
+      document.getElementById("block").style.width="250px";
+      document.getElementById("block").style.height="250px";
+      document.getElementById("block").style.backgroundColor="lightpink";
+      document.getElementById("block").style.borderRadius="0px";
+      document.getElementById("block").style.position="relative";
+    }
+    
+  </script>
+    
+</center>
+</body>
+</html>

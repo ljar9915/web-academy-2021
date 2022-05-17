@@ -1,0 +1,151 @@
+<!--Doctype HTML-->
+<html>
+
+<head>
+	<title> lab 10: internal css </title>
+  <link rel="stylesheet" href="../../mainportfolio.css">
+	<link rel="shortcut icon" href="../../leahjlogo2.png" type="image/x-icon">
+
+	<center>
+		<a href="../../index.html"><img src="../../leahjbanner2.png" alt="banner" width="75%"></a>
+  </center>
+  
+  <style>
+
+    .text {
+      font-size: 18px;
+      width: 75%;
+      border: 4px solid white;
+      color: black;
+      background-image: repeating-radial-gradient(lavender 15%, lightpink 60%, palevioletred 25%);
+    }
+
+    /* the * works as a universal selector */
+    
+    * {
+      box-sizing: border-box;
+    }
+
+    /* a css selector selects the html elements you want to style. simple selectors (select elements based on name, id, class) */
+    /* any html tag can be a selector. for example */
+    
+    body {
+      background-image: url("https://images6.alphacoders.com/110/1107859.png");
+    }
+
+    /* the class selector selects html elements with a specific class attribute. to select elements with a different class, write a period (.) character, followed by the class name. */
+    
+    #name2 {
+      color: violet;
+    }
+
+    /* the id selector uses the id attribute of an html element to select a specific element. 
+    
+    the id of an element is unique within a page, so the id selector is used to select one unique element!
+
+    to select an element with a specific id, write a hashtag (#) character, followed by the id of an element. */
+
+    .demobox {
+      
+    }
+    
+    /* the grouping selector selects all the html elements with the same style definitions.
+
+    it will be be better to group the selectors, to minimize the code. to group selectors, seperate each selector with a comma. */
+
+    h1, h2, p {
+
+    }
+
+    /* css combinators
+
+    a combinator is something that explains the relationship between the selectors.
+
+    a css selector can contain more than one simple selectors. between the simple selectors, we can include a combinator.
+
+    there are four different combinators in css:
+
+    descendent selector (space)
+    child selector (>)
+    adjacent sibling selector (+)
+    general sibling selector (~) */
+
+    /* example of descendent selector */
+    .text h2 {
+      color: violet;
+    }
+
+    /* example of child selector */
+    .text h3 {
+      color: white;
+    }
+
+    /* a pseudo-class is used to define a special state of an element. for example, it can be used to style an element when a user hovers their mouse over it, style visited & unvisited links differently, & style an element when it gets focus */
+
+    a:link {
+      color: mistyrose;
+    }
+    
+    /* the [attribute] element is used to select elements with a specific attribute. the following example selects all <a> elements with a target attribute */
+
+     a[target] {
+      background-color: #F4C2C2;
+      color: white;
+     }
+
+    a[target]:hover {
+      background-color: lightpink;
+    }
+
+ </style>
+
+</head>
+
+<body>
+<center>
+  
+   <div class="topnav">
+      <a href="../lab1/lab1.html">lab 1</a>
+      <a href="../lab2/lab2.html">lab 2</a>
+      <a href="../lab3/lab3.html">lab 3</a>
+      <a href="../lab4/lab4.html">lab 4</a>
+      <a href="../lab5/lab5.html">lab 5</a>
+      <a href="../lab6/lab6.html">lab 6</a>
+      <a href="../lab7/lab7.html">lab 7</a>
+      <a href="../lab8/lab8.html">lab 8</a>
+      <a href="../lab9/lab9.html">lab 9</a>
+      <a href="../lb10/lab10.html" target="_blank">lab 10</a>
+      <a href="../lb11/lab11.html">lab 11</a>
+      <a href="../lb12/lab12.html">lab 12</a>
+      <a href="../lb13/lab13.html">lab 13</a>
+      <a href="../lb14/lab14.html">lab 14</a>
+      <a href="../lb15/lab15.html">lab 15</a>
+      <a href="../lb16/lab16.html">lab 16</a>
+      <a href="../lb17/lab17.html">lab 17</a>
+      <a href="../lb18/lab18.html">lab 18</a>
+      <a href="../lb19/lab19.html">lab 19</a>
+      <a href="../lb20/lab20.html">lab 20</a>
+    </div>
+
+  <br>
+  
+  <div class="text">
+   <br>
+	 <h1> thomas a edison cte high school </h1>
+	 <h2> web developer academy </h2>
+	 <h3> 10th grade </h3>
+	 <h4> lab 10 </h4>
+	 <h3> internal css </h3>
+	 <h2> by leah jarvis </h2>
+   <br>
+  </div>
+
+  <div id="demo">
+    <h1> leah </h1>
+    <h1 id="name2"> jarvis </h1>
+    <h1> 2.09.22 </h1>
+  </div>
+
+</center>
+</body>
+</html>
